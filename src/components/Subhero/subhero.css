@@ -1,0 +1,63 @@
+.subhero {
+    height: 35vh;
+}
+
+.div-subhero {
+    margin-top: 6%;
+    margin-left: 5%;
+    height: 90%;
+    width: 90%;
+    border-radius: 6px;
+    background: linear-gradient(#FF5722, #F97316);
+}
+
+.image1 {
+    height: 110%;
+    width: 23%;
+    position: relative;
+    left: 4%;
+    bottom: 10%;
+}
+
+.image2 {
+    height: 100%;
+    width: 16%;
+    position: relative;
+    left: 8%;
+    bottom: 21%;
+}
+
+.div-texto {
+    width: 30%;
+    height: 60%;
+    position: relative;
+    bottom: 91%;
+    left: 56%;
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+}
+
+.texto1 {
+    color: #FFFFFF;
+    font-size: x-large;
+    font-weight: 500;
+    margin: 0;
+}
+
+.texto2 {
+    color: rgba(255, 255, 255, 0.6) ;
+    font-size: small;
+    margin: 0;
+}
+
+.texto3 {
+    color: #FFFFFF;
+    font-size: small;
+}
+
+@media ( min-width: 320px) and ( max-width: 768px) {
+    .subhero {
+        display: none;
+    }
+}
