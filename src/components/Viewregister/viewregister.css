@@ -1,0 +1,15 @@
+.viewregister {
+    display: flex;
+}
+
+.imagen-register {
+    height: 100vh;
+    width: 50%;
+}
+
+@media ( min-width: 320px) and ( max-width: 768px) {
+    .imagen-register {
+        display: none;
+    }
+    
+}

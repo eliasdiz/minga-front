@@ -1,8 +1,7 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 #componentes de la M-02
-/src/components/CampoRegistro
-/src/components/FormRegister
+
 
 
 # dependencies

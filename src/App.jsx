@@ -1,11 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
-import Hero from './Hero/Hero';
+import Viewregister from './components/Viewregister/Viewregister'
 
 function App() {
   return (
     <div className="App">
-      <Hero />
+    <Viewregister />
     </div>
   );
 }
