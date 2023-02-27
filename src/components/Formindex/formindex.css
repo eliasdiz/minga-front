@@ -1,0 +1,66 @@
+.form-register {
+    width: 60%;
+    height: 65%;
+    display: flex;
+    flex-direction: column;
+    gap: 2%;
+}
+
+img {
+    width: 9%;
+}
+
+.div-checkbox {
+    display: flex;
+    align-items: center;
+    height: 4%;
+}
+.div-checkbox input {
+    border: 1px solid;
+    border-radius: 5px;
+}
+
+.div-checkbox p {
+    color: #1F1F1F;
+    margin: 0;
+}
+
+.submit {
+    border-radius: 10px;
+    background: #F97316;
+    color: #EBEBEB;
+    font-weight: 700;
+    height: 11%;
+    border: none;
+    font-size: x-large;
+    box-shadow: 5px 5px rgb(244 179 51);
+}
+
+.div-google {
+    height: 11%;
+    border: 1px solid;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+.div-google img {
+    height: 49%;
+}
+
+.footer {
+    margin: 0;
+    text-align: center;
+}
+
+.footer a {
+    font-weight: 700;
+    color: #F97316;
+}
+
+@media ( min-width: 320px) and ( max-width: 768px) {
+    .form-register {
+        width: 80%;
+    }
+}

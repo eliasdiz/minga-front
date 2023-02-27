@@ -1,0 +1,36 @@
+.contenedor-registro {
+    height: 100vh;    
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.div-titulo {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.div-titulo img {
+    width: 35%;
+}
+
+.p1 {
+    font-weight: 600;
+    font-size: 212%;
+    margin: 0%;
+}
+
+.p2 {
+    font-size: 94%;
+}
+
+@media ( min-width: 320px) and ( max-width: 768px) {
+    .contenedor-registro {
+        width: 100%;
+    }
+}

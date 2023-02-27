@@ -1,0 +1,14 @@
+.campo-registro {
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+    color: #F97316;
+
+}
+
+.campo-registro input {
+    width: 70%;
+    border: none;
+    background: none;
+}
+
