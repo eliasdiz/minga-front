@@ -1,11 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
-import Viewregister from './components/Viewregister/Viewregister'
+import Index from './components/Index/Index';
 
 function App() {
   return (
     <div className="App">
-    <Viewregister />
+    <Index />
     </div>
   );
 }
